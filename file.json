@@ -1,0 +1,40 @@
+
+[
+
+    {
+        
+        "id":1,
+        "nameproduct":"phoneXF22",
+        "image":"./assets/img/phone.jpg",
+        "description":"this is very good for user gamming",
+        "price":30000
+
+    },
+    {
+        
+        "id":2,
+        "nameproduct":"phoneXF3dc",
+        "image":"./assets/img/phone.jpg",
+        "description":"this is very good for user gamming",
+        "price":56000
+
+    },
+    {
+        
+        "id":3,
+        "nameproduct":"phoneXF323",
+        "image":"./assets/img/phone.jpg",
+        "description":"this is very good for user gamming",
+        "price":56000
+
+    },
+    {
+        
+        "id":4,
+        "nameproduct":"phoneXF3bg",
+        "image":"./assets/img/hetset.jpg",
+        "description":"this is very good for user gamming",
+        "price":56000
+
+    }
+]

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        *{
+            background-color: black;
+
+        }
+        .continer{
+            height: 500px;
+            width: 100%;
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+            grid-template-rows: repeat(5,200px);
+            gap: 25px;
+            
+            
+        }
+        /* ......................... */
+        .section1{
+            /* background-color: aqua; */
+            background-image: url(./assets/img/character__wariorr_man__by_sadegh23ws_diyeg9l.jpg);
+            grid-column: 1/2 ;
+            grid-row:1/3 ;
+            
+        }
+        .section2{
+            grid-column: 1/2 ;
+            grid-row:3/5 ;
+            /* background-color: rgb(45, 83, 83); */
+            background-image: url(./assets/img/character__wariorr_man__by_sadegh23ws_diyeg9v.jpg);
+
+        }
+        .section3{
+            grid-column: 2/2 ;
+            grid-row:1/5 ;
+            /* background-color: rgb(5, 54, 54); */
+            background-image: url(./assets/img/character__wariorr_woman_iran_by_sadegh23ws_diyeghq.jpg);
+            
+        }
+        .section4{
+            grid-column: 3/3 ;
+            grid-row:1/3 ;
+            /* background-color: rgb(159, 233, 233); */
+            background-image: url(./assets/img/character__wariorr_woman_iran_by_sadegh23ws_diyeghm.jpg);
+        }
+        .section5{
+            grid-column: 3/3 ;
+            background-image: url(./assets/img/character__wariorr_man__by_sadegh23ws_diyega5.jpg);
+            grid-row:3/5 ;
+            /* background-color: rgb(0, 0, 0); */
+
+        }
+        .text{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        /* ............reesponsive */
+        @media only screen and (max-width:850px) {
+    
+        .continer{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+            grid-template-rows: repeat(5,500px);
+            gap: 25px;
+          
+        }
+        .section1{
+            grid-column: 1/-1 ;
+            grid-row:1/-1 ;
+
+        }
+        .section2{
+            grid-column: 1/-1 ;
+            grid-row:2/-1 ;
+        }
+        .section3{
+            grid-column: 1/-1 ;
+            grid-row:3/-1 ;
+        }
+        .section4{
+            grid-column: 1/-1 ;
+            grid-row:4/-1 ;
+        }
+        .section5{
+            grid-column: 1/-1 ;
+            grid-row:5/-1 ;
+        }
+}
+
+        /* ......................... */
+    </style>
+    <div class="continer">
+        <div class="section1">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni modi ducimus quod vitae eos laborum ipsam enim alias esse velit? Quis possimus ex unde odit quidem repellat suscipit officia repudiandae.</p>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni modi ducimus quod vitae eos laborum ipsam enim alias esse velit? Quis possimus ex unde odit quidem repellat suscipit officia repudiandae.</p>
+            </div>
+        </div>
+        <div class="section3">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni modi ducimus quod vitae eos laborum ipsam enim alias esse velit? Quis possimus ex unde odit quidem repellat suscipit officia repudiandae.</p>
+            </div>
+        </div>
+        <div class="section4">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni modi ducimus quod vitae eos laborum ipsam enim alias esse velit? Quis possimus ex unde odit quidem repellat suscipit officia repudiandae.</p>
+            </div>
+        </div>
+        <div class="section5">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni modi ducimus quod vitae eos laborum ipsam enim alias esse velit? Quis possimus ex unde odit quidem repellat suscipit officia repudiandae.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+
+
+</body>
+</html>
